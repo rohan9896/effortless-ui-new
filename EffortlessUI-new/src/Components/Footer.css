@@ -1,0 +1,19 @@
+.footer {
+    padding: 1rem;
+    color: white;
+    background-color: #111827;
+    border-top: solid 1px;
+    margin-top: 2rem;
+  }
+  
+  .footer__socialList {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  .footer__socialList > li {
+    margin: 1.5rem;
+  }
+  

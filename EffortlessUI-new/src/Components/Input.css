@@ -1,0 +1,10 @@
+.input__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input__list > li {
+    margin: 1.5rem;
+}

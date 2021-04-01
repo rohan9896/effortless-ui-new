@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap");
+
+.codeContainer {
+  background-color: #e8e8ea5e;
+  padding: 2rem;
+  margin: .5rem 10rem 3rem 10rem;
+  position: relative;
+  box-shadow: 5px 10px 8px rgb(231 220 220);
+}
+
+.codeContainer > p {
+  font-family: 'Shippori Mincho B1', serif;
+  color: red;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.codeContainer > button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: white;
+  color: blue;
+  border: 1px solid;
+  border-radius: 0.3rem;
+  text-overflow: clip;
+  cursor: copy;
+}
+
+.codeContainer > button:hover {
+  color: white;
+  background-color: #2874f0;
+}
+
+@media screen and (max-width: 768px) {
+  .codeContainer {
+    margin: 0;
+  }
+  /* p {
+    overflow-wrap: break-word;
+  } */
+}

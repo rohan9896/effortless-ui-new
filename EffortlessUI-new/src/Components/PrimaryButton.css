@@ -1,0 +1,34 @@
+.primaryButton__headingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primaryButton__headingContainer > button {
+  margin: 2rem;
+  padding: 0.8rem 2rem;
+  background-color: white;
+  color: blue;
+  border: 1px solid rgba(25, 118, 210, 0.5);
+}
+
+
+.primaryButton__buttonList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.primaryButton__buttonList > li {
+  margin: 1.5rem;
+}
+
+.primaryButton__buttonList > li > button {
+  cursor: pointer;
+}
+
+
+textarea {
+  width: 200px;
+}

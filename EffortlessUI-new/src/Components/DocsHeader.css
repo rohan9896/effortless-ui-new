@@ -1,0 +1,45 @@
+.docsheader {
+    background-color: #111827;
+    max-width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+
+.docsheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.docsheader > img {
+    max-width: 100%;
+    width: 500px;
+}
+
+.docsheader > div > h1, h3 {
+    margin: 0;
+    color: white;
+}
+
+.docsheader > div > h3 {
+    font-size: 3rem;
+}
+.docsheader > div > h1 {
+    font-size: 5rem;
+}
+
+@media screen and (max-width: 950px) {
+    .docsheader {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .docsheader > div > h3 {
+        font-size: 1.5rem;
+    }
+    .docsheader > div > h1 {
+        font-size: 2.5rem;
+    }
+}
