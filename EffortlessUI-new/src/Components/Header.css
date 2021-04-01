@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Monoton&family=Nanum+Pen+Script&display=swap");
+
+.header__nav {
+  max-width: 100%;
+  /* background-color: black; */
+  background-color: #111827;
+  color: white;
+  display: flex;
+  font-weight: 700;
+  font-size: larger;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: solid 2px black;
+}
+
+.header__nav > span {
+    font-family: 'Coming Soon', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: xx-large;
+
+}
+
+.header__DesktopList > li > Link, a {
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+}
+
+.header__DesktopList {
+  list-style-type: none;
+  display: flex;
+}
+
+.hamburger-button {
+  display: none;
+}
+
+@media screen and (max-width: 930px) {
+  .header__DesktopList {
+    display: none;
+  }
+  .hamburger-button {
+    display: flex;
+  }
+  .header__mobileList {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5rem;
+    background-color: black;
+    max-width: 100%;
+  }
+  .header__mobileList > li {
+    margin: 1rem;
+  }
+  .header__mobileList > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+  }
+}

@@ -1,0 +1,48 @@
+.MobileList {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.dropdown > button {
+    display: flex;
+    background-color: #ebecf0;
+    color: black;
+    font-size: 100%;
+    padding: 0.5rem 2rem;
+    border: solid 1px rgb(219, 208, 208);
+    border-radius: 0.2rem;
+    display: flex;
+  }
+
+  .popup > ul > li {
+    list-style-type: none;
+    padding-bottom: 0.4rem;
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .popup {
+    display: flex;
+    background-color: #ebecf0;
+    width: fit-content;
+    padding: 0.2rem 4rem 0.2rem 1.5rem;
+    border: solid 1.5px #8c8d8f;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 110%;
+    z-index: 2;
+  }
+  
+  .popup > ul {
+    padding-left: 0;
+  }
+
+@media screen and (min-width: 1310px) {
+    .dropdown {
+        display: none;
+    }
+}
+

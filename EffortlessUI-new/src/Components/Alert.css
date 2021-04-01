@@ -1,0 +1,11 @@
+.alert__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.alert__list > li {
+    margin: 1.5rem;
+    cursor: pointer;
+}

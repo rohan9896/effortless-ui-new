@@ -1,0 +1,58 @@
+@media screen and (min-width: 1310px) {
+  .desktop__view {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 1rem;
+    grid-template-areas: "sidebar component"
+                          "footer footer";
+  }
+
+  .sidebar {
+    color: black;
+    position: sticky;
+    padding: 2rem;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-area: sidebar;
+    position: fixed;
+    height: 100%;
+  }
+
+  .components {
+    grid-area: component;
+    border-left: solid 1px;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+
+  .sidebar h2 {
+    color: #111827;
+  }
+
+  .sidebar > ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding: 2rem;
+  }
+
+  .sidebar > ul > li {
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem 3rem;
+  }
+
+  .sidebar > ul > li:hover {
+    background-color: #111827;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .sidebar {
+    display: none;
+  }
+}
